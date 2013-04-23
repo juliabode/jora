@@ -1,0 +1,65 @@
+// Global settings
+
+html, body, .wrap {
+  height: 100%;
+}
+
+body, .homepage-top {
+  background: @consultBeige url('../img/bg.jpg') repeat;
+}
+
+body.home {
+  background: rgba(83,30,9,0.3);
+}
+
+.alignleft {
+  float: left;
+}
+
+.alignright {
+  float: right;
+}
+
+h1 {
+  font-family: @serifFontFamily;
+}
+
+// Homepage
+
+.home .wrap {
+  position: relative;
+}
+
+.shadow {
+  background: url('../img/shadow_header.png') top center no-repeat;
+  height: 30px;
+  width: 100%;
+}
+
+.bamboo {
+  background: url('../img/bamboo.png') 0 0 no-repeat;
+  height: 100%;
+  width: 480px;
+  position: absolute;
+  right: 0;
+  top: 25px;
+}
+
+.homepage-top {
+  padding-bottom: 100px;
+}
+
+.homepage-bottom {
+  .feature-tiles {
+    position: relative;
+
+    .feature-image {
+      position: absolute;
+      top: -55px;
+    }
+
+    .feature-text {
+      padding-top: 140px;
+    }
+  }
+}
